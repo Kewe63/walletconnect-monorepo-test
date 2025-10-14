@@ -1,2 +1,3 @@
-mkdir packages/ai-debugger
-cd packages/ai-debugger
+cd packages
+mkdir ai-debugger
+cd ai-debugger
