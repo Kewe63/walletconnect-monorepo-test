@@ -6,10 +6,13 @@
     ":prConcurrentLimit10",
     ":prHourlyLimit2",
     ":semanticCommits",
-    ":semanticCommitScope(deps)"
+    ":semanticCommitScope(deps)",
+    ":separateMajorReleases"
   ],
   "updateInternalDeps": true,
   "rollbackPrs": false,
+  "prCreation": "not-pending",
+  "rangeStrategy": "replace",
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
